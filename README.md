@@ -1,2 +1,3 @@
-# soltis-backend
-Golang backend and postgres database exposing customer and address api's
+docker compose up -d go_db
+docker compose build
+docker compose up go-app
